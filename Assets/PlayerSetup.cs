@@ -34,7 +34,7 @@ public class PlayerSetup : MonoBehaviourPun
         // Verifica si el objeto de texto del nombre del jugador está asignado
         if (playerNameText != null)
         {
-            // Si es el jugador local, muestra su propio nombre aleatorio
+            // Muestra el nombre del jugador local
             playerNameText.text = GetRandomName();
         }
     }

@@ -9,6 +9,7 @@ public class RoomManagment : MonoBehaviourPunCallbacks
     public GameObject player;
     public Transform spawnPoint;
 
+
     // Lista de nombres aleatorios
     private string[] randomNames = { "Alex", "Bob", "Charlie", "David", "Emma", "Frank", "Grace", "Henry", "Ivy", "Jack", "Kate", "Leo", "Mia", "Noah", "Olivia" };
 
@@ -47,8 +48,7 @@ public class RoomManagment : MonoBehaviourPunCallbacks
         base.OnJoinedRoom();
         // Mensaje de depuración para indicar que se ha unido a la sala
         Debug.Log("Se ha unido a la sala");
-        // Instancia un nuevo jugador en el punto de aparición de la sala
-        GameObject _player = PhotonNetwork.Instantiate(player.name, spawnPoint.position, Quaternion.identity);
+        SpawnPlayer();
     }
 
     // Método invocado cuando se ha creado una nueva sala de Photon
@@ -57,11 +57,7 @@ public class RoomManagment : MonoBehaviourPunCallbacks
         base.OnCreatedRoom();
         // Mensaje de depuración para indicar que se ha creado la sala
         Debug.Log("Se ha creado la sala");
-        // Obtener nombre aleatorio
-        string playerName = GetRandomName();
-        // Instancia un nuevo jugador en el punto de aparición de la sala
-        GameObject _player = PhotonNetwork.Instantiate(player.name, spawnPoint.position, Quaternion.identity);
-        // No es necesario llamar a IsLocalPlayer aquí
+        SpawnPlayer();
     }
 
     // Método para obtener un nombre aleatorio de la lista
@@ -71,5 +67,21 @@ public class RoomManagment : MonoBehaviourPunCallbacks
         int randomIndex = Random.Range(0, randomNames.Length);
         // Devuelve el nombre correspondiente al índice seleccionado
         return randomNames[randomIndex];
+    }
+
+    // Método para instanciar al jugador en el punto de aparición
+    private void SpawnPlayer()
+    {
+        string playerName = GetRandomName();
+        if (player != null)
+        {
+            // Obtiene el punto de aparición desde el campo del inspector
+            Transform spawnTransform = spawnPoint != null ? spawnPoint : transform;
+            PhotonNetwork.Instantiate(player.name, spawnTransform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogError("Player prefab is not assigned.");
+        }
     }
 }

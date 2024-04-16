@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7521b63f7133e8b499f2b185ce7ca317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 615930356039306002, guid: 067113088ff582c4c8eea5376a558a96, type: 3}
+  player: {fileID: 0}
   spawnPoint: {fileID: 1427098139}
 --- !u!4 &1659033767
 Transform:

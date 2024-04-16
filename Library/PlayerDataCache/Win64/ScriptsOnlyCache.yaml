@@ -5,9 +5,6 @@ ScriptsOnlyBuild:
     - Movement
     - PlayerSetup
     Assembly-CSharp.dll:
-    - MouseLook
-    - Movement
-    - PlayerSetup
     - RoomManagment
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
@@ -28,9 +25,6 @@ ScriptsOnlyBuild:
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
-    - Photon.Pun.PhotonRigidbodyView
-    - Photon.Pun.PhotonTransformView
-    - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -40,9 +34,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
-    Unity.TextMeshPro.dll:
-    - TMPro.TMP_FontAsset
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -167,29 +158,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5288}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5680}
     - Class: 114
-      Script: {instanceID: 5682}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6028}
+      Script: {instanceID: 6112}
     - Class: 114
-      Script: {instanceID: 6114}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6956}
     - Class: 114
-      Script: {instanceID: 6958}
+      Script: {instanceID: 7478}
     - Class: 114
-      Script: {instanceID: 7480}
+      Script: {instanceID: 7624}
     - Class: 114
-      Script: {instanceID: 7626}
+      Script: {instanceID: 7836}
     - Class: 114
-      Script: {instanceID: 7838}
+      Script: {instanceID: 7964}
     - Class: 114
-      Script: {instanceID: 7966}
+      Script: {instanceID: 8266}
     - Class: 114
-      Script: {instanceID: 8268}
+      Script: {instanceID: 8302}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1325,12 +1316,6 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: dec6a1d3c77c41e11f76a5ccceb21126
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RoomManagment
-  - hash:
-      serializedVersion: 2
       Hash: befeb5ccaacdad7699de81c2103c5297
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1493,7 +1478,7 @@ ScriptsOnlyBuild:
     className: RoomListView
   - hash:
       serializedVersion: 2
-      Hash: 94c82a9108c88e37af9d28514c8043c7
+      Hash: 420f2745266766d59d3cc6b639c374ae
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Movement
@@ -2151,6 +2136,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dec6a1d3c77c41e11f76a5ccceb21126
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoomManagment
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
