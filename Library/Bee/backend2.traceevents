@@ -1,403 +1,261 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1711972361955960, "dur":40898, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972361996870, "dur":772, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972361997742, "dur":226, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972361998608, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972361998695, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972361998904, "dur":252, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362000419, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362000585, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362000781, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362000884, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362001089, "dur":893, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":0, "ts":1711972362002352, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1711972362002986, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1711972362003742, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1711972362004273, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1711972361997989, "dur":7224, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972362005223, "dur":569219, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972362574668, "dur":3281, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1711972362002242, "dur":3015, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1711972362005263, "dur":15202, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1711972362020490, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1711972362024989, "dur":952, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1711972362025952, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1711972362026396, "dur":2914, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362029314, "dur":4159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362033476, "dur":536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362034014, "dur":553, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362034569, "dur":492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362035063, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362035212, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362035463, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362035710, "dur":495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362036207, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362036410, "dur":569, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362036981, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1711972362037224, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player487117f6-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1711972362025950, "dur":11558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1711972362038423, "dur":101, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1711972362041698, "dur":518228, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1711972362565616, "dur":7187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1711972362565615, "dur":7191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1711972362572832, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1711972362002245, "dur":3022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362005273, "dur":1313, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362005272, "dur":2591, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362007864, "dur":808, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362008672, "dur":11826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362020527, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362020501, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362021296, "dur":61493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362082836, "dur":7416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362082834, "dur":7420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362090278, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362091498, "dur":7156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362091495, "dur":7161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362098676, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362099972, "dur":12687, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362099970, "dur":12691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362112676, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362114860, "dur":14549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362114858, "dur":14557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362129443, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362133237, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362133236, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362133343, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362134595, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362134593, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362134672, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362135743, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362136752, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362138156, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362140856, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362142081, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362145815, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362145812, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362145888, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362150714, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362150711, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362150801, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362152312, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362153448, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362154442, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362157228, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362158539, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362158538, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362158618, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362159856, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362161549, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362161547, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362161620, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362162986, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362165228, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362167854, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362167852, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362167951, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362169095, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362170192, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362171394, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362172855, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362172854, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362172934, "dur":8961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362181956, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362181952, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362182099, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362184341, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362185701, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362186916, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362188159, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362191245, "dur":756, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362191243, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362192028, "dur":238, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362192270, "dur":27266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1711972362219664, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362223213, "dur":2145, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1711972362221550, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362225473, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362227619, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362232744, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362234589, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362235705, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362236773, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362238041, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362240034, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362242122, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362244131, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362245126, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362246280, "dur":6511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362252851, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362254277, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362256980, "dur":3996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362261259, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362263293, "dur":13770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362277144, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362278944, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362279978, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362282533, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362283620, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362285196, "dur":5456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362290732, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362291930, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362293196, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362295168, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362296378, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362298301, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1711972362300425, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1711972362302619, "dur":6274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1711972362308953, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1711972362310957, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1711972362312041, "dur":262284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362002257, "dur":3020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362005281, "dur":1088, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362006370, "dur":1009, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362007380, "dur":894, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362008274, "dur":533, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362008808, "dur":11683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362020515, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362025868, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1711972362030602, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1711972362030600, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1711972362031887, "dur":13475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1711972362045529, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1711972362049757, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1711972362051477, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1711972362051596, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1711972362053096, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362053094, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362053537, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362054724, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362054722, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362054920, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362059840, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362059837, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362060189, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1711972362061212, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1711972362061417, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1711972362062380, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1711972362062498, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1711972362064624, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362064622, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362064754, "dur":7546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362072365, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Photon3Unity3D.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362072719, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Photon3Unity3D.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362074223, "dur":7472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362074220, "dur":7477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362081710, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362083516, "dur":28272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362083514, "dur":28277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362111866, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362113033, "dur":23574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362113031, "dur":23578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362136743, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362138172, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362140941, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362140939, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362141025, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362142528, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362143577, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362143576, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362143646, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362144752, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362144750, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362144819, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362145919, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362146871, "dur":462, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362146869, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362147351, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362148997, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362149062, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362150220, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362151249, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362152427, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362153955, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362155215, "dur":19549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362155213, "dur":19553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362174780, "dur":13514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362188402, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362190862, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362192506, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362194268, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362195495, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362196725, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362196788, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362200836, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362202097, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362203110, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362204101, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362204099, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362204187, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362205248, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1711972362206994, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362213313, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362220483, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1711972362218846, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362220966, "dur":4858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362225892, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362229433, "dur":368, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362229825, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362234731, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362235931, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362237135, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362238356, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362242028, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362243605, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362244873, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362246065, "dur":6504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362252647, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362254752, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362259446, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362262785, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362266103, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362267630, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362269951, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362271544, "dur":4033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362275659, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362277033, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362278734, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362279919, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362282716, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362284082, "dur":3583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362287766, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362291243, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362292402, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362293744, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362294868, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362296089, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362299406, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1711972362300579, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1711972362302488, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1711972362303769, "dur":4592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1711972362308410, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1711972362311193, "dur":263147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362002270, "dur":4302, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362006573, "dur":1370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362007944, "dur":785, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362008730, "dur":11776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362020524, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362020508, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362021668, "dur":15152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362036899, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362037345, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362039498, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1711972362039659, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1711972362045292, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362045290, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362048631, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362050690, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362050687, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362050885, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362051953, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362052394, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362053414, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1711972362053598, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1711972362054773, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1711972362054975, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1711972362059808, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362060176, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362061260, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362061257, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362061429, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1711972362062542, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362062848, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1711972362064334, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362064331, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362064704, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362068082, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362068081, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362068183, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer.exe" }}
-,{ "pid":12345, "tid":4, "ts":1711972362070974, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1711972362071498, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1711972362074171, "dur":7368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362074170, "dur":7371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362081710, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362083215, "dur":12127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362083214, "dur":12131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362095368, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362096553, "dur":7264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362096552, "dur":7273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362103844, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362105116, "dur":10583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362105114, "dur":10587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362115753, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362117280, "dur":56987, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362117257, "dur":57011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362174349, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362175965, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362175963, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362176045, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362177568, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362177565, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362182937, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362177705, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362183242, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362183240, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362183356, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362184738, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362185910, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362192138, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362187108, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362192293, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362192291, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362192542, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362194257, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362195400, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362196575, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362200396, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362200394, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362200466, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362201445, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362202398, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362203581, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362204614, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362204613, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362204678, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1711972362206331, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362213356, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362216241, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362218474, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362222005, "dur":1227, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1711972362220227, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362223321, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362228046, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362233814, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362235223, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362236400, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362237420, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362239993, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362241852, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362243441, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362244650, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362246068, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362252476, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362253597, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362255066, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362259483, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362261910, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362264205, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362266510, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362268548, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362271061, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362273883, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362275745, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362277494, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362278950, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362280104, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362283400, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362284986, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362288549, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362291890, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362293284, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362294720, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362295801, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362296894, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362300384, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362300382, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362300480, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1711972362301550, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1711972362302607, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1711972362304663, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1711972362308243, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1711972362310947, "dur":263465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1711972362583034, "dur":1985, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1712250718655321, "dur":28132, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718683462, "dur":411, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718684151, "dur":177, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718684495, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1712250718684985, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718685228, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718685874, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718686104, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718686266, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718686489, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718686645, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718686806, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718687129, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718687308, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718687610, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718687812, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718688274, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1712250718688655, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1712250718688814, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1712250718689107, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1712250718690249, "dur":2277, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1712250718692772, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712250718684352, "dur":8517, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718692877, "dur":183988, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718876954, "dur":3084, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712250718685180, "dur":7798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718692981, "dur":782, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718693763, "dur":1235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718694999, "dur":611, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718695611, "dur":8483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704103, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704095, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704189, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704315, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704595, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704594, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704672, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704761, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704834, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718704980, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705040, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705280, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705406, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705566, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705761, "dur":7197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718705759, "dur":7200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718712960, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718713047, "dur":9861, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718713045, "dur":9865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718722911, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718722987, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718723075, "dur":8198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718723074, "dur":8201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718731276, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718731341, "dur":301, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718731647, "dur":22647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718731645, "dur":23557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718755248, "dur":139, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712250718755391, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1712250718756859, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1712250718758934, "dur":117909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718685003, "dur":7919, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718692927, "dur":11108, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718706010, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718704716, "dur":1746, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1712250718706466, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712250718706584, "dur":974, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1712250718707560, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1712250718707877, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718708034, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718708614, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718708923, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718709332, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718709513, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718709614, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718709798, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718709965, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718710201, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718710346, "dur":419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718710767, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712250718706465, "dur":4599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712250718711355, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718711423, "dur":126, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712250718712312, "dur":158244, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712250718875372, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712250718875371, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1712250718875583, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1712250718685242, "dur":7744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718692987, "dur":731, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718693718, "dur":1094, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718694813, "dur":952, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718695766, "dur":8306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718704178, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1712250718704171, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1712250718704329, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1712250718704328, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1712250718704540, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705163, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705156, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705336, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705335, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705438, "dur":6318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718705437, "dur":6321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718711759, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718711835, "dur":6605, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718711833, "dur":6609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718718444, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718718552, "dur":7835, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718718551, "dur":7838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718726390, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718726488, "dur":9434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718726487, "dur":9437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718735924, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736019, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736017, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736338, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736336, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736405, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736471, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736470, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736760, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736759, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1712250718736814, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718737246, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718738384, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718739410, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718739486, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718739546, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718739826, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718739931, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718740058, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718740434, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712250718743685, "dur":9583, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718753269, "dur":164, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712250718753504, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712250718753609, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712250718755699, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1712250718757501, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1712250718759056, "dur":117594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718685138, "dur":7830, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718693322, "dur":606, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718692972, "dur":1312, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718694285, "dur":892, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718695177, "dur":8918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704105, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704097, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704281, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704372, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704466, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1712250718704464, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705046, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705153, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705150, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705295, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705424, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705422, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705536, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705614, "dur":6322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718705612, "dur":6329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718711944, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718712032, "dur":9928, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718712031, "dur":9932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718721964, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718722048, "dur":6117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718722046, "dur":6120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718728167, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718728253, "dur":6610, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ferran\\Documents\\Grau Superior 2\\DAM\\C#\\UF-3\\Prectica C# Multiplayer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718728251, "dur":6614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718734866, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718735238, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718735237, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718735343, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718735902, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736008, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736163, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736161, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736247, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736373, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736372, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736490, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736489, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736561, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736668, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736666, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736794, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736866, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736864, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718736953, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737100, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737186, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737184, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737342, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737409, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737407, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737593, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737651, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718737649, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738032, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738185, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738184, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738298, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738459, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738457, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738543, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738624, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738622, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738783, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738876, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738874, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718738945, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739048, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739046, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739183, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739269, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739328, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739464, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739560, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718739712, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718740118, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718740592, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741036, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741193, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741254, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741253, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741324, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741411, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741510, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741619, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741719, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718741825, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718742036, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718742526, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718742642, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718742740, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718742948, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743038, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743096, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743238, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743308, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743524, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743614, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743755, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743872, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/Prectica C# Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718743949, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744070, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744167, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744279, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744360, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744359, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712250718744509, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1712250718746252, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1712250718747996, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718748321, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1712250718749732, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1712250718753435, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1712250718758778, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712250718755805, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Prectica C# Multiplayer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1712250718758938, "dur":117880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712250718883494, "dur":1464, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
